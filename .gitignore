@@ -1,0 +1,69 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+myenv/
+.venv/
+venv/
+env/
+ENV/
+
+# Test / lint caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Model artifacts and experiment outputs
+models/
+checkpoints/
+wandb/
+mlruns/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# Local datasets and exports
+data/
+*.parquet
+*.feather
+
+# Keep project dataset in git (for mini-project submission)
+!Dataset/
+!Dataset/**
+
+# Temporary files and logs
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Hugging Face / cache directories
+.cache/
+.huggingface/
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
